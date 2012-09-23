@@ -1,0 +1,62 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pt">
+<head>
+<title>Page</title>
+	<meta name="description" content="Breve descrição da página">
+	<meta name="keywords" content="Palavras chave da página">
+	<link href='http://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" type="text/css" href="css/White.css" />
+	<link rel="stylesheet" type="text/css" href="css/dialog.css" />
+	  <script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+	 
+	<script src="WootbBackColor.js" type="text/javascript"></script> 
+	<script src="Wootb.Dialog.js" type="text/javascript"></script> 
+</head> 
+<body>  <div id="boxpopup" class="box">
+        <a onclick="$('#boxpopup').WootbDialog('close');" class="boxclose"></a>
+        <div id="content">
+            Dialog</div>
+    </div>
+<div class="container">  
+	<ul id="menuColors" style="width:530px;">
+</ul>
+<br>
+
+<button type="button" onclick="$('#boxpopup').WootbDialog('show');">open  dialog</button>
+<script>
+
+
+    var appColors = { Colors: [null, "#2c618f", "#333", "#91ab31", "#c33a00", "#393043", "#5672b7", "#7f5dac", "#e58600", "#DC143C", "#008080", "#5672b7", "#708090", "#2F4F4F", "gold", "#00008B", "DarkSlateGrey ", "MidnightBlue", "#9ACD32"] };
+	
+
+    $('#menuColors').Colors(appColors);
+	
+	
+	
+	
+</script>
+</div>
+
+
+
+
+</body>
+</html>

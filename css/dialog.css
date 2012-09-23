@@ -1,0 +1,38 @@
+.box {
+    background-color: #ffffff;
+    color: #888888;
+    min-height: 205px;
+    left: 100%;
+    padding: 20px;
+    position: fixed;
+    right: 30%;
+    top: 25%;
+    width: 555px;
+    z-index: 101;
+	border:5px solid rgb(173,191,244);
+	border-radius:10px;
+	-moz-border-radius:10px;
+}
+
+#overlay {
+    background: silver;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+	opacity:0.8;
+	display: none;
+}
+
+a.boxclose {
+     background: url("cancels.png") repeat scroll left top transparent;
+    cursor: pointer;
+    float: right;
+    height: 23px;
+    left: 32px;
+    position: relative;
+    top: -33px;
+    width: 23px;
+}
