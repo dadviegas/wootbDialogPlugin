@@ -2,9 +2,9 @@
 
 (function ($) {
     var Methods = {
-        init: function () {
+         init: function () {
             if(document.getElementById("overlay")===null){
-                 $('body').append('<div id="overlay" ></div>');
+                 $('<div id="overlay" ></div>').appendTo('body').click(function(){$(('.login,.box')).WootbDialog('close');});
             }
         },
         show:function () {
