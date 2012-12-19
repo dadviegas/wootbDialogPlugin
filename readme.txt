@@ -1,4 +1,4 @@
-www.weboutoftehbox.com
+www.weboutofthebox.com
 
 Wootb.dialog.plugin
 
